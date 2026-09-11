@@ -12,3 +12,4 @@ So recently I ask Claude AI to suggest an outline emphasizing on the integration
 are quite breathtaking to me. So, I want to use this repo to keep the materials after customization, and also 
 supplement with my own. Feel free to use anything in here if it suits your plan.  
 
+<img src="ai_iot_int_fig.png" width=800 />
