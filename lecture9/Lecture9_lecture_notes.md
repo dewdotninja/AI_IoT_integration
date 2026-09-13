@@ -15,9 +15,9 @@
  
 | file | shape |
 |---|---|
-| `Lecture9_Supervised_Learning_for_Machine_Condition.pptx` | 12 slides (dark title, 10 light, dark summary), 13.333 × 7.5 in, speaker notes 1091–1419 chars on every slide |
-| `Lecture9_Supervised_Learning_for_Machine_Condition.ipynb` | 33 cells, executed end to end, zero errors, zero stderr, ~40 s runtime; 8 exercises + real references |
-| `Lecture9_Lab_Sheet.md` | Parts A/B/C, deliverables, marking scheme, traps table, look-ahead to Lecture 10 |
+| `Lecture9_Supervised_Learning_for_Machine_Condition.pptx` renamed to `iaiiot26_Lect09.pptx` | 12 slides (dark title, 10 light, dark summary), 13.333 × 7.5 in, speaker notes 1091–1419 chars on every slide |
+| `Lecture9_Supervised_Learning_for_Machine_Condition.ipynb` renamed to `iaiiot26_Lect09_nb.ipynb`| 33 cells, executed end to end, zero errors, zero stderr, ~40 s runtime; 8 exercises + real references |
+| `Lecture9_Lab_Sheet.md` renamed to `iaiiot26_Lect09_Lab_Sheet.md`| Parts A/B/C, deliverables, marking scheme, traps table, look-ahead to Lecture 10 |
 | `lecture9_model.json` | the exported LinearSVC: 36 coefficients, 3 intercepts, 24 scaler constants — **the input to Lecture 11** |
 | `source/` | `rig.py`, `make_figs.py`, `build_notebook.py`, `build_deck.js`, `results.json`, `figs/` |
  
