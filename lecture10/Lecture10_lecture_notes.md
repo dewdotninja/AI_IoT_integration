@@ -11,9 +11,9 @@
  
 | file | shape |
 |---|---|
-| `Lecture10_Evaluation_and_Anomaly_Detection.pptx` | 12 slides, 13.333 × 7.5 in, speaker notes 1118–1361 chars on every slide |
-| `Lecture10_Evaluation_and_Anomaly_Detection.ipynb` | 41 cells, executed end to end, zero errors, zero stderr, ~11 s runtime; 8 exercises + real references |
-| `Lecture10_Lab_Sheet.md` | Parts A/B/C, deliverables, marking scheme, traps table, look-ahead to Lecture 11 |
+| `Lecture10_Evaluation_and_Anomaly_Detection.pptx`, renamed to `iaiiot26_Lect10.pptx` | 12 slides, 13.333 × 7.5 in, speaker notes 1118–1361 chars on every slide |
+| `Lecture10_Evaluation_and_Anomaly_Detection.ipynb`, renamed to `iaiiot26_Lect10_nb.ipynb` | 41 cells, executed end to end, zero errors, zero stderr, ~11 s runtime; 8 exercises + real references |
+| `Lecture10_Lab_Sheet.md`, renamed to `iaiiot26_Lect10_Lab_Sheet.md` | Parts A/B/C, deliverables, marking scheme, traps table, look-ahead to Lecture 11 |
 | `lecture10_alarm.json` | the alarm spec: 25 numbers, a 3-of-5 persistence rule, an expiry date — **the second input to Lecture 11** |
 | `source/` | `rig.py`, `make_figs.py`, `build_notebook.py`, `build_deck.js`, `results.json`, `figs/` |
  
