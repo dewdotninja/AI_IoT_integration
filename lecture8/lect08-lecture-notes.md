@@ -12,8 +12,8 @@
 | file | shape |
 |---|---|
 | `Week8_From_Sensor_Data_to_a_Dataset.pptx` renamed to `iaiiot26_Lect08.pptx` | 12 slides (dark title, 10 light content, dark summary), 13.333 × 7.5 in, speaker notes 1085–1268 chars on every slide |
-| `Week8_From_Sensor_Data_to_a_Dataset.ipynb` renamed to `iaiiot26_Lect08_nb.pptx` | 34 cells, executed end to end, zero errors, zero stderr; ~10 s runtime; 8 exercises + real references |
-| `Week8_Lab_Sheet.md` renamed to `iaiiot26_Lect08_Lab_Sheet.pptx`| Parts A/B/C with timings, deliverables, marking scheme, troubleshooting table, stretch task |
+| `Week8_From_Sensor_Data_to_a_Dataset.ipynb` renamed to `iaiiot26_Lect08_nb.ipynb` | 34 cells, executed end to end, zero errors, zero stderr; ~10 s runtime; 8 exercises + real references |
+| `Week8_Lab_Sheet.md` renamed to `iaiiot26_Lect08_Lab_Sheet.md`| Parts A/B/C with timings, deliverables, marking scheme, troubleshooting table, stretch task |
 | `wokwi/` | `features.py`, `main.py`, three `wave_*.py` waveforms, `expected_features.csv`, `diagram.json`, `README.md` |
 | `source/` | `week8_common.py`, `make_figs.py`, `build_notebook.py`, `build_deck.js`, `make_wokwi.py`, `results.json`, `figs/` |
 
