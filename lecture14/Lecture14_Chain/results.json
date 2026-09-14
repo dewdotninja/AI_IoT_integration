@@ -1,0 +1,193 @@
+{
+ "session_min": 22.0,
+ "windows": 20130,
+ "hop_s": 0.064,
+ "windows_per_s": 15.625,
+ "script": [
+  [
+   0.0,
+   6.0,
+   "normal"
+  ],
+  [
+   6.0,
+   9.0,
+   "loaded"
+  ],
+  [
+   9.0,
+   11.0,
+   "normal"
+  ],
+  [
+   11.0,
+   13.0,
+   "clipped"
+  ],
+  [
+   13.0,
+   15.0,
+   "normal"
+  ],
+  [
+   15.0,
+   22.0,
+   "bearing"
+  ]
+ ],
+ "injects": [
+  [
+   18.0,
+   "network down"
+  ],
+  [
+   20.0,
+   "network up"
+  ]
+ ],
+ "update_times": {
+  "good": 3.0,
+  "over-tight": 5.0,
+  "deaf": 17.5
+ },
+ "events": [
+  [
+   3.0,
+   "update good",
+   "accepted: committed"
+  ],
+  [
+   5.0,
+   "update over-tight",
+   "refused: shadow test: would raise on 100% of a quiet stretch"
+  ],
+  [
+   17.5,
+   "update deaf",
+   "refused: shadow test: deaf: raises on only 0% of the windows that alarmed last time"
+  ],
+  [
+   18.0,
+   "network down",
+   "the WiFi is pulled out"
+  ],
+  [
+   20.0,
+   "network up",
+   "and put back"
+  ]
+ ],
+ "checks": [
+  {
+   "checkpoint": "quiet start",
+   "expected": "alarm raised on < 5 % of windows",
+   "observed": "0.0%",
+   "pass": true
+  },
+  {
+   "checkpoint": "good update accepted",
+   "expected": "committed; alarm version 3 -> 4",
+   "observed": "accepted: committed",
+   "pass": true
+  },
+  {
+   "checkpoint": "the flooding spec refused",
+   "expected": "refused: would raise on a quiet stretch",
+   "observed": "refused: shadow test: would raise on 100% of a quiet",
+   "pass": true
+  },
+  {
+   "checkpoint": "the deaf spec refused",
+   "expected": "refused: raises on too few retained alarms",
+   "observed": "refused: shadow test: deaf: raises on only 0% of the",
+   "pass": true
+  },
+  {
+   "checkpoint": "heavy cut raises the alarm",
+   "expected": "alarm raises, driver is an amplitude feature",
+   "observed": "raised 100%, driver rms",
+   "pass": true
+  },
+  {
+   "checkpoint": "sensor fault caught by the gate",
+   "expected": "every window rejected, reason 'clipped'",
+   "observed": "100% rejected",
+   "pass": true
+  },
+  {
+   "checkpoint": "actuator held during the sensor fault",
+   "expected": "no actuator transition while the sensor is bad",
+   "observed": "0 transitions",
+   "pass": true
+  },
+  {
+   "checkpoint": "the spall raises the alarm",
+   "expected": "alarm raises, driver is impulsive",
+   "observed": "raised 100%, driver e_hi",
+   "pass": true
+  },
+  {
+   "checkpoint": "the cloud alerts, and only on the spall",
+   "expected": "one alert, after minute 15, none during the heavy cut",
+   "observed": "alert at 16.0 min",
+   "pass": true
+  },
+  {
+   "checkpoint": "the device keeps deciding with no network",
+   "expected": "decisions continue while the uplink is down",
+   "observed": "1830 windows decided",
+   "pass": true
+  },
+  {
+   "checkpoint": "nothing published while the link is down",
+   "expected": "messages queued, not lost",
+   "observed": "3 queued",
+   "pass": true
+  },
+  {
+   "checkpoint": "queued reports arrive on reconnect",
+   "expected": "the queue drains after minute 20",
+   "observed": "0 still queued at the end",
+   "pass": true
+  }
+ ],
+ "checks_passed": 12,
+ "checks_total": 12,
+ "raised": {
+  "normal": 0.0002,
+  "loaded": 0.9993,
+  "clipped": 0.0,
+  "bearing": 0.8656
+ },
+ "gate_reject": {
+  "normal": 0.0,
+  "loaded": 0.0,
+  "clipped": 1.0,
+  "bearing": 0.0008
+ },
+ "msgs": 31,
+ "bytes": 3485,
+ "bytes_per_min": 158.4,
+ "mb_per_day": 0.228,
+ "raw_bytes_per_min": 240000,
+ "cloud_alert_min": 16.0,
+ "cloud_lead_min": 1.0,
+ "offline_windows": 1830,
+ "offline_queued": 3,
+ "queue_left": 0,
+ "deaf_accepted_until_min": 16.0,
+ "deaf_refused_from_min": 16.5,
+ "alarm_threshold": 4.029,
+ "alarm_version": 4,
+ "aspects": {
+  "fig_arc": 2.8279,
+  "fig_checks": 2.2845,
+  "fig_decisions": 2.4255,
+  "fig_failures": 2.4158,
+  "fig_notcovered": 2.6341,
+  "fig_numbers": 3.0,
+  "fig_timeline": 2.1715,
+  "fig_workflow": 4.2518,
+  "fig_workflow_dark": 4.2518
+ }
+}
