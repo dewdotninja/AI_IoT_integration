@@ -1,10 +1,10 @@
 # Lecture 8, Supplement 1 — build notes and reuse guide
  
 **Topic:** How a band feature is actually computed — sampling → DFT → bins → window → FFT vs Goertzel
-**Course:** 01211271 Industrial AI and IoT
-**Status:** supplementary background for Lecture 8. **Not new examinable material**, and the
+<br>**Course:** 01211271 Industrial AI and IoT
+<br>**Status:** supplementary background for Lecture 8. **Not new examinable material**, and the
 deck says so on the title slide.
-**Built:** September 2026. First of a planned series of per-lecture supplements.
+<br>**Built:** September 2026. First of a planned series of per-lecture supplements.
  
 ---
  
