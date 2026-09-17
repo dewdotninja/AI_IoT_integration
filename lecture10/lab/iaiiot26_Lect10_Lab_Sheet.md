@@ -3,7 +3,7 @@
 **01211271 Industrial AI and IoT** · Lecture 10 · Electromechanical Manufacturing Engineering
 
 **Time:** 180 minutes (the second half of today's session)
-**Files:** `Lecture10_Evaluation_and_Anomaly_Detection.ipynb`
+**Files:** `iaiiot26_Lect10_nb.ipynb`
 
 ---
 
