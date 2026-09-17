@@ -3,7 +3,7 @@
 **01211271 Industrial AI and IoT** · Lecture 11 · Electromechanical Manufacturing Engineering
 
 **Time:** 180 minutes (the second half of today's session)
-**Files:** `Lecture11_Edge_AI_on_the_ESP32.ipynb`, `Lecture11_Wokwi.zip`
+**Files:** `iaiiot26_Lect11_nb.ipynb`, `Lecture11_Wokwi.zip`
 **Platform:** Wokwi ESP32 — https://wokwi.com/ — no hardware required
 
 ---
