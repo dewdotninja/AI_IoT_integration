@@ -3,7 +3,7 @@
 **01211271 Industrial AI and IoT** · Lecture 9 · Electromechanical Manufacturing Engineering
 
 **Time:** 180 minutes (the second half of today's session)
-**Files:** `Lecture9_Supervised_Learning_for_Machine_Condition.ipynb`
+**Files:** `iaiiot26_Lect09_nb.ipynb`
 
 ---
 
