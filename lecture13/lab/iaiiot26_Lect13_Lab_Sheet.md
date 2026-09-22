@@ -2,9 +2,9 @@
 
 **01211271 Industrial AI and IoT** · Lecture 13 · Electromechanical Manufacturing Engineering
 
-**Time:** 180 minutes (the second half of today's session)
-**Files:** `iaiiot26_Lect13_nb.ipynb`, `Lecture13_Device.zip`
-**Platform:** Wokwi ESP32 (device) + Colab or a PC (cloud) + your NETPIE device from Lab 12
+* **Time:** 180 minutes (the second half of today's session)
+* **Files:** `iaiiot26_Lect13_nb.ipynb`, `Lecture13_Device.zip`
+* **Platform:** Wokwi ESP32 (device) + Colab or a PC (cloud) + your NETPIE device from Lab 12
 
 ---
 
