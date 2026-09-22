@@ -2,8 +2,8 @@
 
 **01211271 Industrial AI and IoT** · Lecture 9 · Electromechanical Manufacturing Engineering
 
-**Time:** 180 minutes (the second half of today's session)
-**Files:** `iaiiot26_Lect09_nb.ipynb`
+* **Time:** 180 minutes (the second half of today's session)
+* **Files:** `iaiiot26_Lect9_nb.ipynb`
 
 ---
 
